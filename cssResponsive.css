@@ -1,0 +1,60 @@
+
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+
+    header {
+        height: auto; /* Allow header to adjust its height */
+    }
+
+    .nav-bar {
+        flex-direction: column; /* Stack navigation items vertically on smaller screens */
+        align-items: center; /* Center navigation items */
+    }
+
+    .nav-bar li {
+        display: block; /* Display navigation items as blocks on smaller screens */
+        margin: 10px 0; /* Add some spacing between navigation items */
+    }
+
+    .coverPic {
+        height: auto; /* Allow cover image to resize proportionally on smaller screens */
+    }
+
+    .container {
+        margin-top: 20px; /* Adjust top margin for smaller screens */
+    }
+
+    #info {
+        flex-direction: column; /* Stack info elements vertically on smaller screens */
+        text-align: center; /* Center text in info section */
+    }
+
+    .infoPic {
+        width: 100%; /* Make info picture take full width on smaller screens */
+        margin-bottom: 20px; /* Add some spacing below the info picture */
+    }
+
+    .ueberblickImg,
+    .contentImg,
+    .contentImgHardware {
+        width: 100%; /* Make images take full width on smaller screens */
+        height: auto; /* Allow images to resize proportionally */
+    }
+
+    section {
+        flex-direction: column; /* Stack section elements vertically on smaller screens */
+    }
+
+    .button,
+    button {
+        width: 100%; /* Make buttons take full width on smaller screens */
+    }
+
+    .containText {
+        width: 100%; /* Make text container take full width on smaller screens */
+    }
+
+    /* Add more specific adjustments as needed for other elements */
+}

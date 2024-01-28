@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Startseite</title>
+    <script src="script.js"></script>
+    <link rel="Stylesheet" href="style.css" >
+    <link rel="Stylesheet" href="cssResponsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Domine&family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+  </head>
+  <body>
+      <header>
+        <div class="nav-bar">
+          <ul>
+            <li><a class="nav-elements active" href="home.html">Startseite</a></li>
+            <li>
+              <a class="nav-elements" href="grundlagen.html">Grundlagen</a>
+            </li>
+            <li><a class="nav-elements" href="hardware.html">Hardware</a></li>
+            <li>
+              <a class="nav-elements" href="zahlen.html">Zahlen System</a>
+            </li>
+            <li>
+              <a class="nav-elements" href="vergleichlogik.html"
+                >Vergleich & Aussagelogik</a
+              >
+            </li>
+          </ul>
+        </div>
+      </header>
+      <div class="intro">
+        <img class="coverPic" src="Images/coverpicy.svg" alt="coverpic" >
+      </div>
+      <div class="container">
+        <div id="info">
+          <div class="containText">
+            <h2>Überblick</h2>
+            <p>
+              Die Webseite ist ein integraler Bestandteil der Abschlussprüfung
+              des Erstsemesters am Studienkolleg Konstanz (Standort DHBW Campus Bad Mergentheim). In dieser Praxisprüfung
+              müssen die Studierenden nicht nur ihre Kenntnisse und das Gelernte
+              aus dem ersten Semester anwenden, sondern auch auf dieser Webseite
+              präsentieren. Die Umsetzung dieser Webseite erfolgt mithilfe der
+              grundlegenden Webentwicklungstechnologien HTML5, CSS. <br/> Zusätzlich bietet die Erstellung dieser Webseite den
+              Studierenden die Möglichkeit, ihre Fähigkeiten in der praktischen
+              Anwendung von Webtechnologien zu vertiefen und ihre individuellen
+              kreativen Ansätze in die Gestaltung einzubringen.  <div class="frageLink"> Um die Frage zu lesen, klicken Sie <a href="Images/Praxis-Prüfung2023.pdf" target="_blank">hier.</a></div>
+            </p>
+          </div>
+          <img src="Images/ueberblick.png" alt=" Ueberblick" class="ueberblickImg" >
+        </div>
+
+        <div class="content">
+          <section class="grundlagen">
+            <div class="containText">
+              <h2>Grundlagen</h2>
+              <p>
+                Dieses Thema befasst sich mit den grundlegenden Konzepten der digitalen und analogen Datendarstellung und konzentriert sich dabei auf die Bausteine der Information in der Informatik. 
+              </p>
+            <button onclick='newPage("grundlagen")'>Weiter Lesen</button>
+            </div>
+            <img src="Images/grundlagen.png" alt="grundlagen" class="contentImg" >
+          </section>
+          <section class="hardware">
+            <img src="Images/hardware.jpg" alt="hardware" class="contentImg" >
+            <div class="containText">
+              <h2>Hardware</h2>
+              <p>
+                Unter Hardware versteht man die physischen Komponenten eines Computersystems.
+                Es handelt sich um greifbare, berührbare Teile, die den Computer ausmachen und seine Funktion ermöglichen.
+              </p>
+              <button onclick='newPage("hardware")'>Weiter Lesen</button>
+            </div>
+          </section>
+
+          <section class="Zahlen System">
+            <div class="containText">
+              <h2>Zahlensystem</h2>
+              <p>
+                Ein Zahlensystem ist eine Methode zur Darstellung von Zahlen, die auf einem bestimmten Satz von Regeln und Symbolen basiert. Es gibt verschiedene Zahlensysteme, von denen die häufigsten das Dezimalsystem, das Binärsystem, das Oktalsystem und das Hexadezimalsystem sind.
+              </p>
+              <button onclick='newPage("zahlen")'>Weiter Lesen</button>
+            </div>
+            <img src="Images/zahlensystem.png" alt="zahlensystem" class="contentImg">
+          </section>
+
+          <section class="vergleichlogik">
+            <img src="Images/Basic-Logic-Gates-2.png" alt=" logik" class="contentImg">
+            <div class="containText">
+              <h2>Vergleich & Aussagelogik</h2>
+              <p>
+                Der Begriff "Vergleich" wird oft in Bezug auf die Beziehungen zwischen Größen oder Werten verwendet.
+                Die Aussagelogik beschäftigt sich mit Aussagen und deren logischen Verknüpfungen.Aussagen sind Sätze, die wahr oder falsch sein können, aber nicht beides gleichzeitig.
+              </p>
+              <button id="vergleichlogik" onclick='newPage("vergleichlogik")'>Weiter Lesen</button>
+            </div>
+          </section>
+        </div>
+      </div>
+      <footer>
+        <div> 
+          <p class="footerContent" > &copy; <a class="footerContent" href="rohitsbhusal.com.np" target="_blank">Rohit Sharma Bhusal</a>  | Alle Rechte vorbehalten.</p>
+          <a class="footerContent" href="datenschutz.html">Datenschutz</a>
+          <a class="footerContent" href="impressium.html">Impressium</a>
+        </div>
+      </footer>
+  </body>
+</html>
